@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Monoo&display=swap');
+
+	html {
+		color: white;
+		align-items: center;
+		display: flex;
+		height: 100%;
+		justify-content: center;
+		margin: 0;
+	}
+	body {
+    	font-family: 'IBM Plex Mono', monospace;
+    	font-weight:strong;
+		background-color: #000000;
+		background-image: url(bg.png);
+		/* font-size:24px; */
+		/* background-size: contain; */
+		/* backdrop-filter: blur(100px); */
+	}
+	.main {
+	  margin-right: 145px;
+		width: auto;
+		height: 20em;
+		display: flex;
+		flex-flow: row;
+	}
+	.whoops {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		/* transform: scale(0.5); */
+		width: 380px;
+		height: 310px;
+		background-color: #1c141b;
+	}
+	.whosops img {
+		/* border-radius: 3px; */
+		width: 380px;
+		height: 320px;
+	}
+	p {
+		text-align: center;
+		color:white;
+	}
+	ul {
+		list-style-type: none;
+	}
+	.links {
+		position: absolute;
+		/*margin-left: 24.5em; works in firefox but not chrome*/
+		margin-left: 26em;
+		height: 310px;
+		width: 30em;
+		background-color: #003398;
+		clip-path: polygon(0 0, 144px 0, 30% 100%, 0% 100%);
+		background-image: url("neko_stable.gif");
+		background-repeat: no-repeat;
+		background-position-y: bottom;
+		background-position-x: 5em;
+	}
+	li {
+		font-size: 17px;
+		line-height: 2em;
+		color: white;
+	}
+	a {
+		all: unset;
+	}
+	a:hover {
+		cursor: pointer;
+	}
