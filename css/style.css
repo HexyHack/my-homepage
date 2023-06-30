@@ -70,7 +70,7 @@
 	a:hover {
 		cursor: pointer;
 	}
-	.input {
+	input {
 		background-color: unset;
 		font: 16px 'Ubuntu Mono', monospace;
 		color: #b5b5b5;
