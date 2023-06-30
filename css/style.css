@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Monoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Monoo&display=swap'); /* IBM Plex Mono */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap'); /* Ubuntu mono */
 
 	html {
 		color: white;
@@ -69,3 +70,20 @@
 	a:hover {
 		cursor: pointer;
 	}
+	input {
+		background-color: unset;
+		font: 16px 'Ubuntu Mono', monospace;
+		color: #b5b5b5;
+		height: 100%;
+		width: 100%;
+		border-top-style: hidden;
+		border-bottom-style: soild;
+		border-left-style: hidden;
+		border-right-style: hidden;
+		border-bottom-color: #25252500;
+		text-align: center;
+		margin-top: 50px;
+		outline: 0;
+		padding-bottom: 0.5em;
+	  }
+	  
