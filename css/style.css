@@ -18,27 +18,6 @@
 		/* background-size: contain; */
 		/* backdrop-filter: blur(100px); */
 	}
-	.main {
-	  margin-right: 145px;
-		width: auto;
-		height: 20em;
-		display: flex;
-		flex-flow: row;
-	}
-	.whoops {
-		display: flex;
-		flex-direction: column;
-		text-align: center;
-		/* transform: scale(0.5); */
-		width: 380px;
-		height: 310px;
-		background-color: #1c141b;
-	}
-	.whosops img {
-		/* border-radius: 3px; */
-		width: 380px;
-		height: 320px;
-	}
 	p {
 		text-align: center;
 		color:white;
@@ -46,19 +25,7 @@
 	ul {
 		list-style-type: none;
 	}
-	.links {
-		position: absolute;
-		/*margin-left: 24.5em; works in firefox but not chrome*/
-		margin-left: 26em;
-		height: 310px;
-		width: 30em;
-		background-color: #005657;
-		clip-path: polygon(0 0, 144px 0, 30% 100%, 0% 100%);
-		background-image: url("neko_stable.gif");
-		background-repeat: no-repeat;
-		background-position-y: bottom;
-		background-position-x: 5em;
-	}
+
 	li {
 		font-size: 17px;
 		line-height: 2em;
@@ -86,4 +53,49 @@
 		outline: 0;
 		padding-bottom: 0.5em;
 	  }
-	  
+	  .main {
+		margin-right: 145px;
+		  width: auto;
+		  height: 20em;
+		  display: flex;
+		  flex-flow: row;
+	  }
+	  .whoops {
+		  display: flex;
+		  flex-direction: column;
+		  text-align: center;
+		  /* transform: scale(0.5); */
+		  width: 348px;
+		  height: 360px;
+		  /*background-color: #1c141b;*/
+	  }
+	  .whosops img {
+		  /* border-radius: 3px; */
+		  width: 380px;
+		  height: 320px;
+	  }
+	  .links {
+		  position: absolute;
+		  /*margin-left: 24.5em; works in firefox but not chrome*/
+		  margin-left: 22.5em;
+		  height: 350px;
+		  width: 10em;
+		  /*background-color: #005657;*/
+		  
+		  background-image: url("neko_stable.gif");
+		  background-repeat: no-repeat;
+		  background-position-y: bottom;
+		  background-position-x: 0em;
+	  }
+	  .links2 {
+		  position: left;
+		  /*margin-left: 24.5em; works in firefox but not chrome*/
+		  height: 365px;
+		  width: 10em;
+		  background-color: #1a1b2c;
+		  /*		background-image: url("neko_stable.gif");
+		  background-repeat: no-repeat;
+		  background-position-y: bottom;
+		  background-position-x: 0em;*/
+  
+	  }
