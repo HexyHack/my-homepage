@@ -1,5 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Monoo&display=swap'); /* IBM Plex Mono */
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap'); /* Ubuntu mono */
+/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Monoo&display=swap');  IBM Plex Mono */
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');  Ubuntu mono */
+@font-face {
+	font-family: HackRegular;
+	src: url(fonts/Hack-Regular.ttf);
+  }
+@font-face {
+	font-family: SFMono;
+	src: url(fonts/SFMono-Regular.otf);
+  }
+@font-face {
+	font-family: SFPro;
+	src: url(fonts/SFPRODISPLAYBOLD.OTF);
+  }
 
 	html {
 		color: white;
@@ -10,10 +22,10 @@
 		margin: 0;
 	}
 	body {
-    	font-family: 'IBM Plex Mono', monospace;
-    	font-weight:strong;
+    	font-family: 'SFPro';
+    	font-weight:normal;
 		background-color: #000000;
-		background-image: url(bg.png);
+		background-image: url(bg2.png);
 		/* font-size:24px; */
 		/* background-size: contain; */
 		/* backdrop-filter: blur(100px); */
@@ -37,21 +49,8 @@
 	a:hover {
 		cursor: pointer;
 	}
-	input {
-		background-color: unset;
-		font: 16px 'Ubuntu Mono', monospace;
-		color: #b5b5b5;
-		height: 100%;
-		width: 100%;
-		border-top-style: hidden;
-		border-bottom-style: soild;
-		border-left-style: hidden;
-		border-right-style: hidden;
-		border-bottom-color: #25252500;
-		text-align: center;
-		margin-top: 50px;
-		outline: 0;
-		padding-bottom: 0.5em;
+	.clock {
+		color: #895feb;
 	  }
 	  .main {
 		margin-right: 145px;
@@ -60,7 +59,7 @@
 		  display: flex;
 		  flex-flow: row;
 	  }
-	  .whoops {
+	  .pic {
 		  display: flex;
 		  flex-direction: column;
 		  text-align: center;
@@ -69,12 +68,8 @@
 		  height: 360px;
 		  /*background-color: #1c141b;*/
 	  }
-	  .whosops img {
-		  /* border-radius: 3px; */
-		  width: 380px;
-		  height: 320px;
-	  }
-	  .links {
+
+	  .frame {
 		  position: absolute;
 		  /*margin-left: 24.5em; works in firefox but not chrome*/
 		  margin-left: 22.5em;
@@ -87,14 +82,14 @@
 		  background-position-y: bottom;
 		  background-position-x: 0em;
 	  }
-	  .links2 {
-		  position: left;
+	  .links {
+		  position: center;
 		  /*margin-left: 24.5em; works in firefox but not chrome*/
 		  height: 365px;
 		  width: 10em;
-		  background-color: #452925;
-		  /*		background-image: url("neko_stable.gif");
-		  background-repeat: no-repeat;
+		  /* background-color: #0a0041; 
+		  background-image: url("bg2.png");
+		  /* background-repeat: no-repeat;
 		  background-position-y: bottom;
 		  background-position-x: 0em;*/
   
