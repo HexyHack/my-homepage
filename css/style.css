@@ -48,6 +48,7 @@
 	}
 	a:hover {
 		cursor: pointer;
+		text-decoration:underline;
 	}
 	.clock {
 		color: #946df0;
@@ -94,3 +95,18 @@
 		  background-position-x: 0em;*/
   
 	  }
+	  input {
+		background-color: unset;
+		font: 16px 'Ubuntu Mono', monospace;
+		color: #b5b5b5;
+		height: 100%;
+		width: 100%;
+		border-top-style: hidden;
+		border-bottom-style: soild;
+		border-left-style: hidden;
+		border-right-style: hidden;
+		border-bottom-color: #25252500;
+		text-align: center;
+		margin-top: 50px;
+		outline: 0;
+		padding-bottom: 0.5em; }
