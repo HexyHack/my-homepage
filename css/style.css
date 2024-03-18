@@ -48,7 +48,11 @@
 	}
 	a:hover {
 		cursor: pointer;
-		text-decoration:underline;
+		
+		color: #000000;
+		background-color: rgb(255, 255, 255);
+		border-radius: 5px;
+		
 	}
 	.clock {
 		color: #946df0;
