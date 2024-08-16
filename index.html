@@ -1,22 +1,60 @@
 <!DOCTYPE html>
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Front-end to the internet!</title>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Front-end to the internet!</title>
 	<script language="javascript" src="clock.js"></script>
-    <link href="./css/style.css" rel="stylesheet" type="text/css" media="all">
+	<link href="./css/style.css" rel="stylesheet" type="text/css" media="all">
 	<link href="css/media2.ico" rel="shortcut icon" type="image/x-icon">
-  </head>
-  <body>
+</head>
+
+<body>
 	<div class="main">
 		<div class="pic">
-				<img style="border:2px solid white" src="./css/tumb.jpg" alt="picture">
-				
-		</div>                                  <!-- bl -->    <!-- bl means blank spaIce -->
-		<div class="frame">
-			<iframe style="width: 100%; height: 100%; " src="one.html" name="websites" scrolling=no frameBorder="0"></iframe>
-			
+			<img style="border:2px solid white" src="./css/tumb.jpg" alt="picture">
+
 		</div>
-	</div>
-  
-</body></html>
+		<div id="frame">
+			<div id="content">
+				<div style="height: 2.5em;"></div>
+				<span class="clock" id="clock"></span>
+				<hr>
+				<ul>
+					<li><a href="https://youtube.com/" target="_parent">youtube</a></li>
+					<li><a href="https://keep.google.com/" target="_parent">keep</a></li>
+					<li><a href="https://gemini.google.com/" target="_parent">gemini</a></li>
+					<li><a href="https://reddit.com/" target="_parent">reddit</a></li>
+					<li><a href="https://gmail.com/" target="_parent">gmail</a></li>
+					<li><a href="https://outlook.live.com/owa" target="_parent">outlook</a></li>
+					<li><a href="https://github.com/" target="_parent">github</a></li>
+					<li><a href="https://drive.google.com/drive/home/" target="_parent">drive</a></li>
+					<li><a href="https://mega.nz/" target="_parent">mega</a></li>
+					<li><a href="https://openstreetmap.org" target="_parent">osm</a></li>
+					<li><a href="https://duckduckgo.com/" target="_parent">geotastic</a></li>
+					<li><a href="https://pinterest.com/" target="_parent">pinterest</a></li>
+				</ul>
+				<hr>
+				<ul>
+					<li><a href="https://myanimelist.net/" target="_parent">mal</a></li>
+					<li><a href="https://mangadex.org/" target="_parent">mangadex</a> </li>
+					<li><a href="http://aniwave.to/" target="_parent">aniwave</a> </li>
+					<li><a href="https://duckduckgo.com/" target="_parent">gelbooru</a></li>
+
+					<form style="width:20em;" action="https://duckduckgo.com/" method="get">
+						<input autocomplete="off" class="submit_on_enter" type="text" name="q"
+							placeholder="Duck something.">
+						<winput type="hidden" name="sites" value="rutracker.org">
+					</form>
+
+				</ul>
+				<hr>
+				<ul>
+				</ul>
+			</div>
+		</div>
+</body>
+
+</html>
