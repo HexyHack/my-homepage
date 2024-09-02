@@ -19,7 +19,8 @@ html {
 body {
 	font-family: 'SFMono';
 	font-weight: normal;
-	background-color: #0f0f0f;
+	background-color: #000000;
+	/* background-color: #0f0f0f; */
 	/* background-image: url(bg2.png); */
 	/* background-size:cover; */
 	/*backdrop-filter: blur(100px); */
