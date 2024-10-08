@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Varela&display=swap');
+@font-face {
+	font-family: SFMono;
+	src: url();
+}
+
+
+
+html {
+	color: white;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	height: 100%;
+}
+
+body {
+    background-size:auto;
+	background-color: #000000;
+	background-image: url(/img/stars.gif);
+}
+
+p {
+	text-align: center;
+	color: white;
+}
+
+h1 {
+	margin-top:1px;
+}
+
+a {
+	all: unset;
+	font-size: 1em;
+	font-family: 'SFPro' ;
+	margin:1px
+}
+
+a:hover {
+	cursor: pointer;
+	color: #000000;
+	background-color: rgb(0, 200, 173);
+	transition: 0.15s;
+}
+
+
+hr {
+	border-top: 1px solid #ffffff;
+	width: 3rem;
+}
+
+ul {
+	display: block;
+	margin: 0 auto;
+	width: 22rem;
+}
+
+li {
+	line-height: 1.5;
+	list-style: none;
+	margin: 5px;
+}
+
+
+.main {
+	display: flex;
+	align-items: center;
+	margin: 5px;
+	width:45rem;
+}
+
+.pic {
+	background-color: #000000;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	width: 11rem;
+	height: 23rem;
+	border:2px solid white }
+
+.lamen {
+	background-color: #000000;
+	border:2px solid white;
+	justify-content: center;
+	width:50rem;
+	height:28rem;
+	text-align: center;
+	margin-left: 30px;
+	
+	}
+
+
+
+
+
+
